@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730568367638",
+    "project_id": "call-recorder-36438",
+    "storage_bucket": "call-recorder-36438.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730568367638:android:b5bf3290bca57326e85f37",
+        "android_client_info": {
+          "package_name": "com.ft.callrecording"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730568367638-5imo7ehqq2b3n533unkqovvtd37eujj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoF1Rnjmth8FPYx76k-CQHKOa5YB5_kRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730568367638-5imo7ehqq2b3n533unkqovvtd37eujj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
