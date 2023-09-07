@@ -30,15 +30,14 @@ public class CallRecordingManager {
 
     public CallRecordingManager(Context context) {
 
-        String kayitDizini = String.valueOf(Environment.getExternalStorageDirectory());
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(new Date());
-        outputFilePath = kayitDizini + File.separator + "seskaydi" + timeStamp + ".mp3";
-
     }
-
 
     public void startRecording() {
         if (!isRecording) {
+
+            String kayitDizini = String.valueOf(Environment.getExternalStorageDirectory());
+            String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(new Date());
+            outputFilePath = kayitDizini + File.separator + "seskaydi" + timeStamp + ".mp3";
 
             mediaRecorder = new MediaRecorder();
             mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
